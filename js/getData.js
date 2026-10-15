@@ -42,7 +42,7 @@ function drawChart() {
     // Code to get the data from Google Sheets based on: https://stackoverflow.com/a/33055115
     // Add your sheets url and range below
     // var spreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1pDM_cbLpmfbzNFuOJO3JJTm5IF_8KzeqS8wYIsV9RN0/edit'
-    var spreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1vcfe1g_JFtLj0OEC-OJ7IAKkHi_kV9WLFsOb7-qlz2w/edit'
+    var spreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1j3K4SzKBL4pwxSSueLgBzRXJZjJZkWCbdRLyOL_VKP8/edit'
     var query = new google.visualization.Query(spreadsheetUrl)
     query.send(handleQueryResponse)
 }
